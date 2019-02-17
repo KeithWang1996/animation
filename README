@@ -1,0 +1,23 @@
+This is a animation project written with VS2017. It is able to import Skeletons, skins, and animations, then play the animation. 
+
+To run, simply open the solution and run. By the time command window shows up, hit Enter the play the default animation of a walking wasp.
+
+When the command window shows up you can enter filenames like:
+something.skel something.skin something.anim
+
+First is skeleton file, second is skin file, last is animation file
+
+You can only input skeleton file and skin file, then no animation will be played.
+
+I provided wasp.skel wasp.skin wasp.anim for test, and these are the files run by default.
+
+I also provided tube.skel and tube.skin. No anim file for this model.
+
+When the model is rendering, you can press 's' to turn on/off the skin, and you can use left mouse key to turn the camera and right mouse key to change the distance between camera and center of the scene.
+
+An example of walking wasp is uploaded to the media section.
+
+This project has start code, so not all files are implemented by myself, classes implemented by me are:
+DOF Joint Skeleton Skin Vertex Pose Keyframe Triangle AnimationClip
+
+I also modified Tester class to run my code.
